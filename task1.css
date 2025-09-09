@@ -1,0 +1,85 @@
+/* Base Styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f0eb; /* Light cream background */
+  color: #3e2723; /* Dark brown text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Container Box */
+.container {
+  background-color: #fff3e0; /* Light brown/peach */
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(100, 70, 40, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Headline */
+h2 {
+  margin-bottom: 20px;
+  color: #4e342e; /* Medium brown */
+}
+
+/* Date Input */
+input[type="date"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #fff;
+  color: #3e2723;
+  border: 1px solid #d7ccc8;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #a1887f; /* Brownish button */
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #8d6e63;
+}
+
+/* Result Text */
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #3e2723;
+}
+
+/* Responsive Layout */
+@media (max-width: 480px) {
+  .container {
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  button {
+    font-size: 15px;
+  }
+
+  #result {
+    font-size: 16px;
+  }
+}
